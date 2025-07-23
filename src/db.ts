@@ -13,11 +13,10 @@ export const db = mysql.createConnection({
   queueLimit: 0,
 });
 
-db.connect();
-// db.connect((err) => {
-//   if (err) {
-//     console.error('MySQL connection failed:', err);
-//   } else {
-//     console.log('Connected to MySQL DB');
-//   }
-// });
+db.connect((err) => {
+  if (err) {
+    console.error('MySQL connection failed:', err);
+  } else {
+    console.log('Connected to MySQL DB');
+  }
+});
