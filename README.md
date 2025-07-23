@@ -2,7 +2,8 @@
 
 A simple and secure REST API built with **Express.js** and **TypeScript**, using **JWT authentication** and **MySQL** as the database. It supports both **local** and **online database configurations** via environment variables.
 
-env is included on github so you can just run the project immidiately
+env is included on google drive 
+https://drive.google.com/drive/folders/1H5a-kDEzAYuSmaVfCnllZjDU-JUYg_kH?usp=sharing
 
 ---
 
